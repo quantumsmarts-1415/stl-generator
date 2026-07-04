@@ -1,0 +1,5 @@
+# If this project is deployed to Netlify via Git or a full-folder drop,
+# build with Vite and publish the dist/ output.
+[build]
+  command = "npm install && npm run build"
+  publish = "dist"
